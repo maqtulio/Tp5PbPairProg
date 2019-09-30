@@ -1,0 +1,55 @@
+/*Footer*/
+ul.social {
+  position: absolute;
+  top: 30px;
+  right: 110px;
+  display: inline;
+}
+
+.social li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  position: absolute;
+  top: 0;
+}
+
+.social li,
+.social a {
+  height: 32px;
+  display: block;
+}
+
+.logo-footer {
+  height: 100px;
+  max-width: 100%;
+}
+
+#facebook {
+  left: 0px;
+  width: 32px;
+  display: inline‐block;
+  background: url("../img/sociais.png") 0px 0px;
+}
+
+#google {
+  left: 35px;
+  width: 32px;
+  display: inline‐block;
+  background: url("../img/sociais.png") 76px 0px;
+}
+
+#twitter {
+  left: 72px;
+  position: relative;
+  width: 32px;
+  display: inline‐block;
+  background: url("../img/sociais.png") -88px 0px;
+}
+
+.caixa-footer {
+  position: relative;
+  margin: 20px;
+  background-image: url("../img/footer-background.jpg");
+  color: white;
+}
