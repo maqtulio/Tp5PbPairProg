@@ -1,49 +1,58 @@
-@import 'reset.css';
-@import 'grid.css';
-@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+@import "reset.css";
+@import "grid.css";
+@import url("https://fonts.googleapis.com/css?family=Raleway&display=swap");
 body {
-    font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
+}
+
+main {
+  height: 700px;
 }
 
 .amostragem {
-    border: 0.5px solid lightgray;
-    padding: 10px;
-    margin: 10px;
+  border: 0.5px solid lightgray;
+  padding: 10px;
+  margin: 10px;
 }
 
 .amostragem p {
-    margin: 10px;
-    text-align: right;
+  margin: 10px;
+  text-align: right;
 }
 
 .amostragem p a {
-    font-size: 0.8em;
-    text-decoration: none;
-    color: indigo;
-    font-weight: bold;
-    padding: 10px;
+  font-size: 0.8em;
+  text-decoration: none;
+  color: indigo;
+  font-weight: bold;
+  padding: 10px;
 }
 .amostragem p a:hover {
-    background-color: pink;
+  background-color: pink;
 }
 
 .box {
-    border: 1px solid lightgray;
-    padding: 10px;
-    margin: 5px;
-    height: 74px;
+  padding: 10px;
+  margin: 5px;
+  height: 150px;
+}
+.box img {
+  max-height: 100%;
+}
+.box img:hover {
+  transform: scale3d(3, 3, 3);
+  transform: ;
+}
+section h2 {
+  margin: 10px;
 }
 
 section h2 {
-    margin: 10px;
-}
-
-section h2 {
-    text-transform: uppercase;
-    font-size: 1.2em;
-    font-weight: 900;
+  text-transform: uppercase;
+  font-size: 1.2em;
+  font-weight: 900;
 }
 
 .center {
-    text-align: center;
+  text-align: center;
 }
