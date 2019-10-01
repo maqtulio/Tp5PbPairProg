@@ -14,15 +14,9 @@ ul.social {
   top: 0;
 }
 
-.social li,
-.social a {
+.social li, .social a {
   height: 32px;
   display: block;
-}
-
-.logo-footer {
-  height: 100px;
-  max-width: 100%;
 }
 
 #facebook {
@@ -52,4 +46,14 @@ ul.social {
   margin: 20px;
   background-image: url("../img/footer-background.jpg");
   color: white;
+}
+
+.logo-footer {
+  height: 100px;
+  max-width: 100px;
+}
+
+.caixa‐footer img {
+  vertical-align: middle;
+  margin-left: 30px;
 }

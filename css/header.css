@@ -1,5 +1,4 @@
 .sacola {
-  background: url("../img/sacola.png") no-repeat;
   max-width: 50px;
   max-height: 50px;
   vertical-align: middle;
@@ -45,4 +44,8 @@ ul#menu-principal li a {
   /* background-color: #181818; */
   color: grey;
   text-decoration: none;
+  text-transform: uppercase;
+}
+ul#menu-principal li a:hover {
+  font-weight: bold;
 }
